@@ -40,8 +40,7 @@ In this example, we declare a function showMessage and set it up to console.log 
 The call showMessage() executes the code of the function and if we were to call the function twice, we will see the message two times.
 This example clearly demonstrates one of the main purposes of functions: to avoid code duplication. If we ever need to change the message or the way it is shown, it’s enough to modify the code in one place: the function which outputs it.
 
-### Exercise 1
-Write a function that displays your fullname to the console and call the function after declaring it.
+#### Exercise 1: Write a function that displays your fullname to the console and call the function after declaring it.
 
 
 

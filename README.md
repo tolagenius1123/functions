@@ -18,6 +18,25 @@ basic building block of JavaScript. Functions allow us to encapsulate a block of
 function functionName () {}
 
 ```
+A function will start with the function keyword. This tells whatever is running your program that what follows is a function and to treat it as such. 
+After that comes the name of the function. We like to give functions names that describe what they do. Then comes an open and a close parenthesis. 
+And finally, open and close brackets. In between these brackets is where all of our function code will go.
+
+### Function Declaration 
+To create a function we can use a function declaration.
+
+It looks like this:
+```
+function showMessage () {
+  console.log("Hello World");
+}
+
+showMessage();
+
+//Output
+Hello World
+```
+In this example, we declare a function showMessage and set it up to console.log 'Hello World'. We can then see that in order to run this function, we need to write or invoke its name with the parentheses after it. This is the syntax to run a function. A function always needs parentheses to run.
 
 
 

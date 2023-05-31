@@ -99,5 +99,14 @@ If an argument is not given for a parameter, the parameter will be equal to unde
 Write a function that takes in 3 parameters of different data types, concatenates them together and displays it to the console.
 
 
+
+
 ## Section 3: Scope
 Scope is defined as what variables we currently have access to and where. So far in this course, we have been working in Global scope, in that we can access any variable we have created, anywhere in our code. There are a couple different levels of scope: you may have heard of block level scope (used in if statements and for loops) in which a variable using either let or const is only available within the statement or loop.
+
+### Function Level Scope
+Functions have something similar, known as function scope. Function scope allows us to create variables inside of functions, that are essentially private to that function. We can not reach into a function from the outside and get access to these variables. But we are free to use these variables anywhere within our function. Conversely, we DO have access to variables outside of the function. It is a one-way street. Functions can reach out and grab variables outside of their scope, but we can not reach into a function to get a variable.
+
+### Global variables
+### Local variables
+### The return Statement

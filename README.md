@@ -5,6 +5,8 @@ Today we will be diving into the world of functions in JavaScript. Having gone t
 This lesson is categorized into three segments for every concept of function we are going to learn, we will first start with the explanations, then move to demonstrations, where I will be showing you how to implement what you learnt before we finally move to exercises, here you will be given classwork to help you solidify the concept of functions you just learnt.
   
  Shall we begin? you can fasten your seat belt 🚀🚀🚀
+</br>
+</br>
 
 ## Section 1: What are functions ?
 There is no way we can learn about functions without first defining them. We can think of functions as small computer programs although you may not realize it, you have been using functions this entire time. Functions allow us to write code that will be used over and over again, keeping our code DRY. 
@@ -42,9 +44,11 @@ This example clearly demonstrates one of the main purposes of functions: to avoi
 
 #### Exercise 1: 
 Write a function that displays your fullname to the console and call the function after declaring it.
-
-
-
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Section 2: Passing Data into Functions
 
@@ -99,6 +103,8 @@ If an argument is not given for a parameter, the parameter will be equal to unde
 
 #### Exercise 2: 
 Write a function that takes in 3 parameters of different data types, concatenates them together and displays it to the console.
+</br>
+</br>
 </br>
 </br>
 </br>

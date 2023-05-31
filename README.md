@@ -44,6 +44,8 @@ This example clearly demonstrates one of the main purposes of functions: to avoi
 Write a function that displays your fullname to the console and call the function after declaring it.
 
 
+
+
 ## Section 2: Passing Data into Functions
 
 As mentioned before, a big reason we use functions is code re-use. We are always looking for ways to keep our code DRY (Don’t Repeat Yourself). Because of this, functions allow us to pass data into them for use inside the function. We can declare little function variables called parameters and pass that data in when we call the function (the data are then called arguments).

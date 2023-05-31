@@ -99,10 +99,9 @@ If an argument is not given for a parameter, the parameter will be equal to unde
 
 #### Exercise 2: 
 Write a function that takes in 3 parameters of different data types, concatenates them together and displays it to the console.
-
-
-
-
+</br>
+</br>
+</br>
 ## Section 3: Scope
 Scope is defined as what variables we currently have access to and where. So far in this course, we have been working in Global scope, in that we can access any variable we have created, anywhere in our code. There are a couple different levels of scope: you may have heard of block level scope (used in if statements and for loops) in which a variable using either let or const is only available within the statement or loop.
 

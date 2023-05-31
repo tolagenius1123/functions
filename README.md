@@ -6,7 +6,7 @@ This lesson is categorized into three segments for every concept of function we 
   
  Shall we begin? you can fasten your seat belt 🚀🚀🚀
 
-## Section1: What are functions ?
+## Section 1: What are functions ?
 There is no way we can learn about functions without first defining them. We can think of functions as small computer programs although you may not realize it, you have been using functions this entire time. Functions allow us to write code that will be used over and over again, keeping our code DRY. 
 DRY is a principle that ensures you do not repeat yourself when writing programs.
 
@@ -93,4 +93,11 @@ My name is Tolani and I am 100 years old.
 
 ```
 Arguments will always line up with parameters in order, so the first argument will be the first parameter, and etc.
-If an argument is not given for a parameter, the parameter will be equal to undefined.
+If an argument is not given for a parameter, the parameter will be equal to undefined. The difference between a parameter and arguement is that a parameter is a placeholder for the data while an argument is the actual data being passed to the function when calling it.
+
+#### Exercise 2: 
+Write a function that takes in 3 parameters of different data types, concatenates them together and displays it to the console.
+
+
+## Section 3: Scope
+Scope is defined as what variables we currently have access to and where. So far in this course, we have been working in Global scope, in that we can access any variable we have created, anywhere in our code. There are a couple different levels of scope: you may have heard of block level scope (used in if statements and for loops) in which a variable using either let or const is only available within the statement or loop.

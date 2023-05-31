@@ -19,8 +19,7 @@ function functionName () {}
 
 ```
 A function will start with the function keyword. This tells whatever is running your program that what follows is a function and to treat it as such. 
-After that comes the name of the function. We like to give functions names that describe what they do. Then comes an open and a close parenthesis. 
-And finally, open and close brackets. In between these brackets is where all of our function code will go.
+After that comes the name of the function. We like to give functions names that describe what they do. Then comes an open and a close parenthesis which usually takes in a parameter but not in all cases, we will discuss this later in details. And finally, open and close brackets. In between these brackets is where all of our function code will go.
 
 ### Function Declaration 
 To create a function we can use a function declaration.
@@ -37,6 +36,9 @@ showMessage();
 Hello World
 ```
 In this example, we declare a function showMessage and set it up to console.log 'Hello World'. We can then see that in order to run this function, we need to write or invoke its name with the parentheses after it. This is the syntax to run a function. A function always needs parentheses to run.
+
+The call showMessage() executes the code of the function and if we were to call the function twice, we will see the message two times.
+This example clearly demonstrates one of the main purposes of functions: to avoid code duplication. If we ever need to change the message or the way it is shown, it’s enough to modify the code in one place: the function which outputs it.
 
 
 

@@ -1,10 +1,10 @@
-# Functions Lesson Plan
+# Introduction to Functions 
 
 This markdown file outlines the structure for a 3-hour lesson on functions. The lesson plan follows the given format: explanations, demonstrations, exercises, and then revisiting the explanations. The goal is to provide a clear understanding of functions and their usage in JavaScript.
 
-## 1. Explanations
 
-### 1.1 Introduction to Functions
+
+<!-- ### 1.1 Introduction to Functions
 
 -   Definition of a function
 -   Why functions are important in programming
@@ -92,4 +92,4 @@ Revisit the explanations provided in section 1 to reinforce the understanding of
 
 ---
 
-This markdown file presents a structured lesson plan for teaching functions in JavaScript. The theory section explains the fundamental concepts, the demonstration section provides code examples, and the exercise section offers practical problems for students to solve. Revisiting the explanations at the end reinforces the understanding of the covered material.
+This markdown file presents a structured lesson plan for teaching functions in JavaScript. The theory section explains the fundamental concepts, the demonstration section provides code examples, and the exercise section offers practical problems for students to solve. Revisiting the explanations at the end reinforces the understanding of the covered material. -->

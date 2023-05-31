@@ -6,7 +6,7 @@ This lesson is categorized into three segments for every concept of function we 
   
  Shall we begin? you can fasten your seat belt 🚀🚀🚀
 
-## What are functions ?
+## Section1: What are functions ?
 There is no way we can learn about functions without first defining them. We can think of functions as small computer programs although you may not realize it, you have been using functions this entire time. Functions allow us to write code that will be used over and over again, keeping our code DRY. 
 DRY is a principle that ensures you do not repeat yourself when writing programs.
 
@@ -40,7 +40,57 @@ In this example, we declare a function showMessage and set it up to console.log 
 The call showMessage() executes the code of the function and if we were to call the function twice, we will see the message two times.
 This example clearly demonstrates one of the main purposes of functions: to avoid code duplication. If we ever need to change the message or the way it is shown, it’s enough to modify the code in one place: the function which outputs it.
 
-#### Exercise 1: Write a function that displays your fullname to the console and call the function after declaring it.
+#### Exercise 1: 
+Write a function that displays your fullname to the console and call the function after declaring it.
 
 
+## Section 2: Passing Data into Functions
 
+As mentioned before, a big reason we use functions is code re-use. We are always looking for ways to keep our code DRY (Don’t Repeat Yourself). Because of this, functions allow us to pass data into them for use inside the function. We can declare little function variables called parameters and pass that data in when we call the function (the data are then called arguments).
+
+### Parameters
+A function parameter will represent the data we pass into a function, for use in the function. Essentially when we write a function we assign the data variable names, even without knowing what the data will be. We set these variables inside of the parentheses when we write the function. There is no limit to the amount of parameters we can include in a function, but each variable name must be separated by a comma. We can then use these variables within our function just as we would any other variable.
+
+```
+function myFunction (parameter1, parameter2) {
+  //we can use parameter1 and parameter2 just like a variable in this function
+}
+
+```
+### Arguments
+Once we have our parameters set up in our function, we can now pass data into the function. In order to do this, we will use the parentheses we write when we call the function. We call these pieces of data arguments. arguments can be ANY data type (string, number, Boolean, object, array, even other functions!). Unlike other languages, JavaScript does not require us to set the data type when we write the function, although you should make an effort to understand what type of data will be coming into the function (and if you are using pre-built functions, you should know what data type that function expects).
+
+To use an argument, just put the data in the function call parentheses like so:
+
+```
+// function declaraction
+function printName (name) {
+  console.log(name);
+}
+
+//function call
+printName("Tolani");
+printName("James");
+
+//output
+Tolani
+James
+```
+
+If you have more than one parameter, you will use more than one argument:
+
+```
+// function declaraction
+function printName (name, age) {
+  console.log("my name is " +name+ " and I am " +age+ " years old.");
+}
+
+//function call
+printName("Tolani", 100);
+
+//output
+My name is Tolani and I am 100 years old.
+
+```
+Arguments will always line up with parameters in order, so the first argument will be the first parameter, and etc.
+If an argument is not given for a parameter, the parameter will be equal to undefined.
